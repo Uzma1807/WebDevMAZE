@@ -8,7 +8,7 @@ The WebDev Competetion is a part of Technical Events, M.A.Z.E.
 #### Submission made by:
 <ul>
 <li>Uzma Masood</li>
-<li>Sumir Vats</li>
+<li>Sumir Vats @SumirVats2003</li>
 </ul>
 <br/>
 <br/>
