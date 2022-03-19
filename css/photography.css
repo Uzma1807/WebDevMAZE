@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--nav: rgb(0, 102, 255);
+	--dark: #18191a;
+}
+
+.event-main {
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+	font-size: 7vh;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.event-main p {
+	color: rgb(177, 177, 177);
+	text-transform: none;
+	font-size: 20px;
+	padding: 1.5rem;
+}
+
+.winners .lang {
+	width: 40vw;
+	height: 50vh;
+	font-size: 20px;
+	background-color: rgb(199, 251, 255);
+}
+
+.winners .lang p {
+	font-weight: bold;
+	margin: 1.5rem;
+}
+
+.winners .lang a {
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.winners .lang:hover {
+	color: black;
+	background-color: rgb(155, 243, 255);
+}
+
+.winners .lang table {
+	font-weight: normal;
+}
+
+.winners .lang:hover {
+	font-size: 25px;
+}
+
+.part .lang {
+	width: 25vw;
+	height: 50vh;
+	font-size: 20px;
+	background-color: rgb(255, 199, 255);
+}
+
+.part .lang:hover {
+	background-color: rgb(255, 153, 255);
+	font-size: 23px;
+	color: black;
+}
+
+.part .lang p {
+	font-weight: bold;
+	margin: 1.5rem;
+}
+
+.part .lang a {
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}

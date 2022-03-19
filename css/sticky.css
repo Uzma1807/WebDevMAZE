@@ -1,0 +1,20 @@
+#navbar {
+    overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .theory {
+  padding-top: 60px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.sticky {
+		position: relative;
+	}
+}

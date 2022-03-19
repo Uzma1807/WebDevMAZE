@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.langs {
+	justify-content: center;
+	align-items: center;
+}
+
+.lang {
+	width: 35vw;
+	margin: 2vh 3vw;
+}
+
+.toast a {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+.toast a:hover {
+	color: var(--nav);
+}

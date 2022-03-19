@@ -1,0 +1,21 @@
+.navbar {
+    background-color: var(--dark);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.navbar a {
+	margin-right: 2vh;
+}
+
+.navbar a img {
+	width: 5vw;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

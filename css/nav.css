@@ -1,0 +1,38 @@
+.navbar {
+    background-color: var(--nav);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar ul li a{
+	cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 2vh 2vw;
+}
+
+.navbar ul li a:hover {
+	background-color: white;
+	color: var(--nav);
+}
+
+@media only screen and (max-width: 500px) {
+	.navbar ul {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.navbar ul li {
+		width: 100%;
+		text-align: center;
+	}
+}

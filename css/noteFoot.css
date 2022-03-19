@@ -1,0 +1,38 @@
+footer {
+	margin-top: 10vh;
+	background-color: var(--dark);
+	color: var(--nav);
+}
+
+.foot {
+	width: 80vw;
+	margin: 0vh 10vw;
+}
+
+.foot p {
+	text-align: center;
+	padding: 2vh 1vw;
+	font-size: 20px;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.social a i {
+	font-size: 40px;
+	margin: 1rem;
+}
+
+.social i:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	.social {
+		flex-direction: column;
+	}
+}
