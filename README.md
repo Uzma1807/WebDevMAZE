@@ -11,5 +11,5 @@ The WebDev Competetion is a part of Technical Events, M.A.Z.E.
 <li>Sumir Vats @SumirVats2003</li>
 </ul>
 <br/>
-This is a copy of ["https://github.com/SumirVats2003/mazeWebDev"]
+This repository is a copy of ["https://github.com/SumirVats2003/mazeWebDev"]
 <br/>
